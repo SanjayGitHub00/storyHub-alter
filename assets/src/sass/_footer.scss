@@ -1,0 +1,33 @@
+.footer__area {
+  font-size: 15px;
+  @media screen and (max-width: $sm) {
+    flex-direction: column;
+  }
+
+  .right__footer {
+    @media screen and (max-width: $sm) {
+      margin-top: 1rem;
+    }
+    ul {
+      li {
+        &.active {
+          color: $orangeDark;
+        }
+
+        margin-right: 2rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a {
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            color: $orangeDark;
+          }
+        }
+      }
+    }
+  }
+}

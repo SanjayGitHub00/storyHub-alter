@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../fonts.css";
+@import "_variable.scss";
+@import "_nav.scss";
+@import "_body.scss";
+@import "footer";
